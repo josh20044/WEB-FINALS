@@ -1,0 +1,409 @@
+    body {
+        margin: auto;
+        margin: 0%;
+        font-family: inherit;
+        background-image: url(https://i.imgur.com/AeGQD2G.png);
+        width: 100%;
+        background-size: 2520px;
+        background-position: center;
+        box-sizing: border-box;
+        
+    }
+
+    #AnniversaryBanner {
+        width: 100%;
+        height: 610px;
+        background-image: url(https://i.imgur.com/MJsygm0.jpg);
+        background-color: black;
+        background-size: 100%; 
+        background-repeat: no-repeat;
+        background-position: 0px -130px;
+        padding-top: 0%;
+        color: white;
+    } 
+
+    #gradient-element {
+        width: 70%;
+        height: 100%;
+        background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    }
+
+    #gradient-element p {
+        padding: 0% 64% 10% 10%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #gradient-element h1 {
+        padding: 18% 10% 0% 10%;
+    }
+      
+    #DivWithSlider {
+        width: 100%;
+        height: 1000px;
+        background-color: transparent;
+        background-position: 0px 0px;
+    }
+
+    #AmazonAppstore {
+        background-image: url(https://i.imgur.com/8yLcJTF.png);
+        width: 180px;
+        height: 50px;
+        background-size: cover;
+        border: none;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+        cursor: pointer;
+        margin-left: 2%;
+    }
+
+    #AppStore {
+        background-image: url(https://i.imgur.com/HXZ6cpo.png);
+        width: 180px;
+        height: 50px;
+        background-size: cover;
+        border: none;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+        cursor: pointer;
+        margin-left: 2%;
+    }
+
+    #GoogleStore {
+        background-image: url(https://i.imgur.com/5MfFy5f.png);
+        width: 180px;
+        height: 50px;
+        background-size: cover;
+        border: none;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+        cursor: pointer;
+        margin-left: 2%;
+    }
+
+    #MicrosoftStore {
+        background-image: url(https://i.imgur.com/YKSLKhq.png);
+        width: 180px;
+        height: 50px;
+        background-size: cover;
+        border: none;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+        cursor: pointer;
+        margin-left: 2%;
+    }
+
+    #AppGalleryStore {
+        background-image: url(https://i.imgur.com/iZjTy7Y.png);
+        width: 180px;
+        height: 50px;
+        background-size: cover;
+        border: none;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position: center;
+        cursor: pointer;
+        margin-left: 2%;
+    }
+
+    #ButtonlineUp {
+        width: 100%;
+        height: 200px;
+        padding-top: 3%;
+        padding-left: 20%;
+    }
+
+    #Slider {
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+    }
+
+    #TextWithPic {
+        width: 100%;
+        height: 3420px;
+        background-color: transparent;
+    }
+
+    #DivTextWithPic1 {
+        width: 100%;
+        height: 23%;
+        background-color: white;
+    }
+
+    #DivTextWithPic2 {
+        width: 100%;
+        height: 23%;
+        background-color: white;
+        padding-left: 7%;
+    }
+
+
+    #DivTextWithPic3 {
+        width: 100%;
+        height: 23%;
+        background-color: white;
+    }
+
+
+    #DivTextWithPic4 {
+        width: 100%;
+        height: 23%;
+        background-color: white;
+        padding-left: 7%;
+    }
+
+    #DivTextWithPic1Photo {
+        float: left;
+        margin-top: 5%;
+        background-image: url(https://i.imgur.com/S6Qr58z.jpg);
+        width: 52%;
+        height: 73%;
+        background-size: 100% 100%;
+    }
+
+    #DivTextWithPic1Text {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-color: white;
+    }
+
+    #DivTextWithPic1Text p {
+        font-size: 18px;
+        padding: 2% 4% 5% 20%;
+        line-height: 30px;
+    }
+
+    #DivTextWithPic1Text h1 {
+        padding: 30% 20% 0% 20%;
+    }
+
+
+    #DivTextWithPic2Photo {
+        float: left;
+        margin-top: 5%;
+        background-image: url(https://i.imgur.com/6ltsOhr.jpg);
+        width: 52%;
+        height: 73%;
+        background-size: 100% 100%;
+    }
+
+    #DivTextWithPic2Text {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-color: white;
+    }
+
+    #DivTextWithPic2Text p {
+        font-size: 18px;
+        padding: 2% 15% 5% 10%;
+        line-height: 30px;
+    }
+
+    #DivTextWithPic2Text h1 {
+        padding: 27% 10% 0% 10%;
+    }
+        
+    #DivTextWithPic3Photo {
+        float: left;
+        margin-top: 5%;
+        background-image: url(https://i.imgur.com/VFdIhIp.jpg);
+        width: 52%;
+        height: 73%;
+        background-size: 100% 100%;
+    }
+
+    #DivTextWithPic3Text {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-color: white;
+    }
+
+    #DivTextWithPic3Text p {
+        font-size: 18px;
+        padding: 2% 4% 5% 20%;
+        line-height: 30px;
+    }
+
+    #DivTextWithPic3Text h1 {
+        padding: 30% 20% 0% 20%;
+    }
+
+    #DivTextWithPic4Photo {
+        float: left;
+        margin-top: 5%;
+        background-image: url(https://i.imgur.com/hPQQYx4.jpg);
+        width: 52%;
+        height: 73%;
+        background-size: 100% 100%;
+    }
+
+    #DivTextWithPic4Text {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-color: white;
+    }
+
+    #DivTextWithPic4Text p {
+        font-size: 18px;
+        padding: 2% 15% 5% 10%;
+        line-height: 30px;
+    }
+
+    #DivTextWithPic4Text h1 {
+        padding: 27% 10% 0% 10%;
+    }
+
+    #slider {
+        width: 66%;
+        max-width: 1920px;
+        height: 700px;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        display: flex;
+        width: max-content;
+        transition: 1s;
+    }
+    
+    #list img {
+        float: left;
+        cursor: pointer;
+    }
+    
+    #buttons {
+        position: relative;
+        width: 17%;
+    }
+    
+    #buttons2 {
+        position: relative;
+        width: 17%;
+        
+    }
+    
+    #buttons button:hover {
+        opacity: 0.5;
+        transition: 1s;
+    }
+    
+    #buttons2 button:hover {
+        opacity: 0.5;
+        transition: 1s;
+    }
+    
+    #buttons button {
+        height: 700px;
+        width: 100%;
+        border-radius: 1px;
+        background-color: gray;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        opacity: 0;
+        transition: 1s;
+    }
+    
+    #buttons2 button {
+        height: 700px;
+        width: 300px;
+        border-radius: 1px;
+        background-color: gray;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        opacity: 0;
+        transition: 1s;
+    }
+    
+    
+    #slideback {
+        display: flex;
+        width: 100%;
+    }
+    
+    #dots {
+        position: absolute;
+        bottom: 10px;
+        color: #fff;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #dots li {
+        list-style: none;
+        width: 10px;
+        height: 10px;
+        background-color: #747474;
+        margin: 20px;
+        border-radius: 20px;
+        transition: 1s;
+    }
+
+    #SliderContent1 {
+        margin-top: 5%;
+        width: 600px;
+        height: 400px;
+    }
+
+    #SliderContent2 {
+        margin-top: 5%;
+        float: left;
+        width: 350px;
+        height: 180px;
+    }
+
+    #SliderContent3 {
+        margin-top: 5%;
+        float: left;
+        width: 350px;
+        height: 180px;
+    }
+
+    #SliderContent4 {
+        margin-top: 5%;
+        float: left;
+        width: 350px;
+        height: 180px;
+    }
+
+    #SliderContent5 {
+        margin-top: 5%;
+        float: left;
+        width: 350px;
+        height: 180px;
+    }
+
+    #SliderContent6 {
+        margin-top: 5%;
+        width: 80%;
+        height: 60%;
+    }
+
+    #item {
+        display: flex;
+    }

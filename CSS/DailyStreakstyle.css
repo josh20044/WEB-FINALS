@@ -1,0 +1,488 @@
+body {
+    background-image: url("https://i.imgur.com/FA5gLGX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#Daily{
+    color:white;
+    margin-top: 8.3%;
+    margin-left: 7.5%;
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+#container{
+    display: flex;
+}
+#rewardlist{
+    margin-left: 7.5%;
+    width: 50%;
+    z-index: -1;
+}
+/* #rewardone{
+    border: 2px solid blue;
+    width: 33%;
+    margin-left: 7.5%;
+    height: 140px;
+    border-radius: 10px;
+} */
+
+#rewardone{
+  border: 2px solid #F9D6AF;
+  width: 66%;
+  height: 235px;
+  border-radius: 10px;
+  background-color: #F9D6AF;
+  display: flex;
+}
+#columnone{
+    width: 18%;
+}
+#picturecontainerone{
+    width: 100%;
+}
+#Bigquantumone{
+    width: 100%;
+    height: 110px;
+    margin-left: 2%;
+    position: relative;
+    left: 8%;
+    margin-top: 7%;
+    
+}
+#contentcontainerone{
+    width: 77%;
+}
+#Quantuminsigniaone{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top:18%;
+    left: 4%;
+}
+#rewardtext{
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+    left:2%;
+    margin-top: 1%;
+    color: #3D0202;
+    line-height: 27px;
+}
+#timetext{
+    font-size: 15px;
+    position: relative;
+    margin-left: 5%;
+    color: #C82119;
+    letter-spacing: 1px;
+}
+#quantumcontainerone{
+    width:60%;
+    border: 1px solid #DBAD78;
+    height: 30%;
+    position:relative;
+    border-radius: 10px;
+    top: 10%;
+    left: 4%;
+    background-color: #FFE3C2;
+    display: flex;
+}
+#quantumtext{
+    font-weight: 550;
+    font-size: 17px;
+    position: relative;
+    left:4%;
+    margin-top: 9%;
+    margin-left: 2%;
+    color: #3D0202;
+}
+#numbertext{
+    font-weight: 550;
+    font-size: 17px;
+    position: relative;
+    left:27%;
+    margin-top: 9%;
+    color: #3D0202;
+
+}
+#rewardone button{
+    width:61%;
+    height: 56px;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 4%;
+    border-radius: 10px;
+    color:white;
+    background-image: url("https://i.imgur.com/JNj6oLR.png");
+    background-repeat: repeat-x;
+    background-size: 150% 100%;
+    background-position: 40% 0%;
+    border:none;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+#rewardone button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*2nd Box */
+#rewardtwo{
+    border: 2px solid #F9D6AF;
+    width: 66%;
+    height: 235px;
+    border-radius: 10px;
+    background-color: #F9D6AF;
+    display: flex;
+    margin-top: .5%;
+  }
+  #columnoneboxtwo{
+      width: 18%;
+  }
+  #picturecontaineroneboxtwo{
+      width: 100%;
+  }
+  #Bigquantumoneboxtwo{
+      width: 100%;
+      height: 110px;
+      margin-left: 2%;
+      position: relative;
+      left: 8%;
+      margin-top: 7%;
+      
+  }
+  #contentcontaineroneboxtwo{
+      width: 77%;
+  }
+  #Quantuminsigniaoneboxtwo{
+      width: 45px;
+      height: 45px;
+      position: relative;
+      top:18%;
+      left: 4%;
+  }
+  #rewardtextboxtwo{
+      font-weight: bold;
+      font-size: 19px;
+      position: relative;
+      left:2%;
+      margin-top: 1%;
+      color: #3D0202;
+      line-height: 27px;
+  }
+  #timetextboxtwo{
+      font-size: 15px;
+      position: relative;
+      margin-left: 5%;
+      color: #C82119;
+      letter-spacing: 1px;
+  }
+  #quantumcontaineroneboxtwo{
+      width:60%;
+      border: 1px solid #DBAD78;
+      height: 30%;
+      position:relative;
+      border-radius: 10px;
+      top: 10%;
+      left: 4%;
+      background-color: #FFE3C2;
+      display: flex;
+  }
+  #quantumtextboxtwo{
+      font-weight: 550;
+      font-size: 17px;
+      position: relative;
+      left:4%;
+      margin-top: 9%;
+      margin-left: 2%;
+      color: #3D0202;
+  }
+  #numbertextboxtwo{
+      font-weight: 550;
+      font-size: 17px;
+      position: relative;
+      left:27%;
+      margin-top: 9%;
+      color: #3D0202;
+  
+  }
+  #rewardtwo button{
+      width:61%;
+      height: 56px;
+      position: relative;
+      margin-top: 7%;
+      margin-left: 4%;
+      border-radius: 10px;
+      color:white;
+      background-image: url("https://i.imgur.com/oluaIn3.png");
+      background-repeat: repeat-x;
+      background-size: 150% 100%;
+      background-position: 40% 0%;
+      border:none;
+      font-size: 20px;
+      text-shadow: 1px 1px black;
+  }
+  #rewardtwo button:hover{
+      cursor: pointer;
+  }
+
+
+
+  /*3rd Box*/
+  #rewardthree{
+    border: 2px solid #F9D6AF;
+    width: 66%;
+    height: 235px;
+    border-radius: 10px;
+    background-color: #F9D6AF;
+    display: flex;
+    margin-top: .5%;
+  }
+  #columnoneboxthree{
+      width: 18%;
+  }
+  #picturecontaineroneboxthree{
+      width: 100%;
+  }
+  #Bigquantumoneboxthree{
+      width: 100%;
+      height: 110px;
+      margin-left: 2%;
+      position: relative;
+      left: 8%;
+      margin-top: 7%;
+      
+  }
+  #contentcontaineroneboxthree{
+      width: 77%;
+  }
+  #Quantuminsigniaoneboxthree{
+      width: 45px;
+      height: 45px;
+      position: relative;
+      top:18%;
+      left: 4%;
+  }
+  #rewardtextboxthree{
+      font-weight: bold;
+      font-size: 19px;
+      position: relative;
+      left:2%;
+      margin-top: 1%;
+      color: #3D0202;
+      line-height: 27px;
+  }
+  #timetextboxthree{
+      font-size: 15px;
+      position: relative;
+      margin-left: 5%;
+      color: #C82119;
+      letter-spacing: 1px;
+  }
+  #quantumcontaineroneboxthree{
+      width:60%;
+      border: 1px solid #DBAD78;
+      height: 30%;
+      position:relative;
+      border-radius: 10px;
+      top: 10%;
+      left: 4%;
+      background-color: #FFE3C2;
+      display: flex;
+  }
+  #quantumtextboxthree{
+      font-weight: 550;
+      font-size: 17px;
+      position: relative;
+      left:4%;
+      margin-top: 9%;
+      margin-left: 2%;
+      color: #3D0202;
+  }
+  #numbertextboxthree{
+      font-weight: 550;
+      font-size: 17px;
+      position: relative;
+      left:27%;
+      margin-top: 9%;
+      color: #3D0202;
+  
+  }
+  #rewardthree button{
+      width:61%;
+      height: 56px;
+      position: relative;
+      margin-top: 7%;
+      margin-left: 4%;
+      border-radius: 10px;
+      color:white;
+      background-image: url("https://i.imgur.com/oluaIn3.png");
+      background-repeat: repeat-x;
+      background-size: 150% 100%;
+      background-position: 40% 0%;
+      border:none;
+      font-size: 20px;
+      text-shadow: 1px 1px black;
+  }
+  #rewardthree button:hover{
+      cursor: pointer;
+  }
+
+
+  /*4th Box*/
+  #rewardfour{
+    border: 2px solid #F9D6AF;
+    width: 66%;
+    height: 235px;
+    border-radius: 10px;
+    background-color: #F9D6AF;
+    display: flex;
+    margin-top: .5%;
+  }
+  #columnoneboxfour{
+      width: 18%;
+  }
+  #picturecontaineroneboxfour{
+      width: 100%;
+  }
+  #Bigquantumoneboxfour{
+      width: 100%;
+      height: 110px;
+      margin-left: 2%;
+      position: relative;
+      left: 8%;
+      margin-top: 7%;
+      
+  }
+  #contentcontaineroneboxfour{
+      width: 77%;
+  }
+  #Quantuminsigniaoneboxfour{
+      width: 45px;
+      height: 45px;
+      position: relative;
+      top:18%;
+      left: 4%;
+  }
+  #rewardtextboxfour{
+      font-weight: bold;
+      font-size: 19px;
+      position: relative;
+      left:2%;
+      margin-top: 1%;
+      color: #3D0202;
+      line-height: 27px;
+  }
+  #timetextboxfour{
+      font-size: 15px;
+      position: relative;
+      margin-left: 5%;
+      color: #C82119;
+      letter-spacing: 1px;
+  }
+  #quantumcontaineroneboxfour{
+      width:60%;
+      border: 1px solid #DBAD78;
+      height: 30%;
+      position:relative;
+      border-radius: 10px;
+      top: 10%;
+      left: 4%;
+      background-color: #FFE3C2;
+      display: flex;
+  }
+  #quantumtextboxfour{
+      font-weight: 550;
+      font-size: 17px;
+      position: relative;
+      left:4%;
+      margin-top: 9%;
+      margin-left: 2%;
+      color: #3D0202;
+  }
+  #numbertextboxfour{
+      font-weight: 550;
+      font-size: 17px;
+      position: relative;
+      left:27%;
+      margin-top: 9%;
+      color: #3D0202;
+  
+  }
+  #rewardfour button{
+      width:61%;
+      height: 56px;
+      position: relative;
+      margin-top: 7%;
+      margin-left: 4%;
+      border-radius: 10px;
+      color:white;
+      background-image: url("https://i.imgur.com/oluaIn3.png");
+      background-repeat: repeat-x;
+      background-size: 150% 100%;
+      background-position: 40% 0%;
+      border:none;
+      font-size: 20px;
+      text-shadow: 1px 1px black;
+  }
+  #rewardfour button:hover{
+    cursor: pointer;
+  }
+
+
+  /*Final Reward*/
+  #finalreward{
+    width: 33.5%;
+    height: 595px;
+    border-radius: 10px;
+    position: relative;
+    right: 15.5%;
+    z-index: -1;
+  }
+  #timesfive{
+    width: 100%;
+    height: 60%;;
+    background-image: url("https://i.imgur.com/A5rqjRH.png");
+  }
+  #finalrewardcontainer{
+    width: 100%;
+    height: 40%;
+    background-color: #F9D6AF;
+  }
+  #rewardtextfive{
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+    left:2%;
+    margin-top: 1%;
+    color: #3D0202;
+    line-height: 80px;
+}
+#timetextboxfive{
+    font-size: 15px;
+    position: relative;
+    margin-left: 2%;
+    color: #C82119;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+#quantumcontaineroneboxfive{
+    width:60%;
+      border: 1px solid #DBAD78;
+      height: 30%;
+      position:relative;
+      border-radius: 10px;
+      top: 10%;
+      left: 4%;
+      background-color: #FFE3C2;
+      display: flex;
+}
