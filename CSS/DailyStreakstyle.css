@@ -462,27 +462,71 @@ body {
     font-weight: bold;
     font-size: 19px;
     position: relative;
-    left:2%;
+    left:3%;
     margin-top: 1%;
     color: #3D0202;
-    line-height: 80px;
+    line-height: 50px;
 }
 #timetextboxfive{
     font-size: 15px;
     position: relative;
-    margin-left: 2%;
+    margin-left: 3%;
     color: #C82119;
     letter-spacing: 1px;
     font-weight: 550;
 }
 #quantumcontaineroneboxfive{
-    width:60%;
+    width:94%;
       border: 1px solid #DBAD78;
-      height: 30%;
+      height: 28%;
       position:relative;
       border-radius: 10px;
-      top: 10%;
-      left: 4%;
+      top: 7%;
+      left: 3%;
       background-color: #FFE3C2;
       display: flex;
 }
+#Quantuminsigniaoneboxfive{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top:18%;
+    left: 2%;
+}
+#quantumtextboxfive{
+    font-weight: 550;
+    font-size: 17px;
+    position: relative;
+    left:2%;
+    margin-top: 4%;
+    margin-left: 2%;
+    color: #3D0202;
+}
+#numbertextboxfive{
+    font-weight: 550;
+    font-size: 17px;
+    position: relative;
+    left:63%;
+    margin-top: 4%;
+    color: #3D0202;
+}
+#finalreward button{
+    width:94%;
+    height: 50px;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 5%;
+    border-radius: 10px;
+    color:white;
+    background-image: url("https://i.imgur.com/oluaIn3.png");
+    background-repeat: repeat-x;
+    background-size: 150% 100%;
+    background-position: 40% 0%;
+    border:none;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+#finalreward button:hover{
+  cursor: pointer;
+}
+

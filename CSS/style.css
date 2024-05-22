@@ -6,6 +6,15 @@
     overflow-x: hidden;
 }
 
+body
+{
+    background-image: url("https://i.imgur.com/FA5gLGX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #navigation
 {
     display: flex;
@@ -164,6 +173,7 @@
 {
     display: none;
     position: absolute;
+    overflow-y: hidden;
 }
 
 #qrcode button
@@ -174,9 +184,55 @@
     background-color: transparent;
     color: white;
     border: none;
+    
+    
+}
+
+#qrcode #center
+{
+    margin: auto;
+    margin-top: 15vh;
+    background-color: #107CB2;
+    width: 35%;
+    height: 70vh;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+#qrcode #pic
+{
+    background-image: url(https://i.imgur.com/M5xvPwn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 37vh;
+}
+
+#qrcode #code
+{
+    margin-top: 2vh;
+    width: 100%;
+    height: 25vh;
+}
+
+#qrcode #qrpic
+{
+    margin: auto;
+    margin-top: 2vh;
+    background-image: url(https://i.imgur.com/BkUUO5x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 20vh;
 }
 
 /* body:has(#navigation #social:hover) #navigation #store
 {
     background-color: aquamarine;
 } */
+
+/* END OF NAVIGATION ----------------------------------------------------------------*/
+

@@ -21,6 +21,9 @@ body{
     padding: 18px;
     position: fixed;
     width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid #747482;
+    box-shadow: 0px 0px 15px 0px black;
 }
     
 #navigation a
@@ -112,19 +115,20 @@ body{
 #newsdesign1:hover{
     transition: 0.5s;
     transform: translateY(-5%);
-    z-index: 2;
+    z-index: 1;
 }
 #newsdesign{
     width: 20%;
     margin: 70px 20px 0px 0px;
     box-sizing: border-box;
-    line-height: 0px;   
+    line-height: 0px; 
+    z-index: 1;  
 }
 
 #newsdesign:hover{
     transition: 0.5s;
     transform: translateY(-5%);
-    z-index: 2;
+    z-index: 1;
 }
 #newsdestxt{
     line-height: normal;
@@ -132,47 +136,55 @@ body{
 
 #newsimg{
     width: 100%;
-    height: 150px;
+    height: 140px;
     border-radius: 10px;
 }
 
 #news1n5{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news6n10{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news11n15{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
     
 }
 #news16n20{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news21n25{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news21n25{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news26n30{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news31n35{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
@@ -181,11 +193,13 @@ body{
     line-height: 30px;
 }
 #news36n40{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
 }
 #news40n43{
+    padding: 2% 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
     width: 100%;
@@ -200,5 +214,6 @@ body{
 #newsdesign2:hover{
     transition: 0.5s;
     transform: translateY(-5%);
-    z-index: 2;
+    z-index: 1;
+    
 }
