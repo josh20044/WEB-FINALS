@@ -1,0 +1,124 @@
+body{
+    background-color: #073D4F;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+
+}
+*
+{
+    font-family: sans-serif;
+    margin: 0%;
+    overflow-x: hidden;
+    
+
+}
+
+#navigation
+{
+    display: flex;
+    gap: 1%;
+    background-color: #073D4F;
+    padding: 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid #747482;
+    box-shadow: 0px 0px 15px 0px black;
+}
+    
+#navigation a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#navigation #logo
+{
+    width: 3%;
+    margin-left: 12%;
+}
+
+#navigation #logo img
+{
+    width: 100%;
+}
+
+#navigation #store
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#navigation #daily
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#navigation #game
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#navigation #news
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#navigation #social
+{
+    margin-top: auto;
+    margin-bottom: auto;
+
+    width: 5%;
+
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+
+    cursor: pointer;
+
+    display: flex;
+    gap: 3%;
+
+    overflow-y: hidden;
+}
+
+#navigation #social #arrow
+{
+    font-family: sans-serif;
+    transform: rotate(90deg);
+    transition: 0.5s;
+    color: lightgrey;
+    font-weight: 100;
+}
+
+#mother{
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+}
+#dino1{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+#dinoimg{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 100%;
+}
+
+#text1{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    color: gainsboro;
+}
