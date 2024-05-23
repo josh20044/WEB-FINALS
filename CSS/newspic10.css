@@ -134,3 +134,69 @@ body{
 #linker {
     color:  white;
 }
+#footer {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 6%;
+    margin-top: 3.6%;
+    color: #fff;
+}
+
+#footerd1 {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+#footerd2 {
+    float: left;
+    width: 60%;
+    height: 70%;
+    padding-top: 60px;
+
+}
+
+#footerd3 {
+    float: left;
+    width: 20%;
+    height: 100%;
+    
+}
+
+#footerd1 img {
+    padding-top: 55px;
+    padding-left: 140px;
+}
+
+#linker {
+    color: #fff;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+#footer p {
+    font-size: 14px;
+}
+
+#languageSelect {
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+#Share {
+    float: left;
+}
+
+#Share{
+    float: right;
+    background-image: url(https://i.imgur.com/a19axGV.png);
+    background-size: 100% 100%;
+    width: 90px;
+    height: 80px;
+    margin-top: 55px;
+    margin-right: 55px;
+}
