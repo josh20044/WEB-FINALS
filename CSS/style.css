@@ -131,7 +131,7 @@ body
 
 #connect
 {
-    position: absolute;
+    position: fixed;
     background-color: #FFC200;
     width: 100%;
     display: flex;
@@ -162,7 +162,7 @@ body
 
 #backBlur
 {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     pointer-events: none;
@@ -172,7 +172,7 @@ body
 #qrcode
 {
     display: none;
-    position: absolute;
+    position: fixed;
     overflow-y: hidden;
 }
 
@@ -236,3 +236,1884 @@ body
 
 /* END OF NAVIGATION ----------------------------------------------------------------*/
 
+#Store-Container
+{
+    margin: auto;
+    margin-top: 15vh;
+    width: 74%;
+    overflow-y: hidden;
+}
+
+#Store-Container #webgift #p1
+{
+    font-size: 3vh;
+    font-weight: 725;
+    color: white;
+}
+
+#Store-Container #webgift #p2
+{
+    color: hsla(0, 0%, 100%, 0.7);
+    padding: 2vh 0vh;
+}
+
+#Store-Container #webgift #box1
+{
+   width: 19vw;
+   background-color: #F8D4AA;
+   border-radius: 10px;
+}
+
+#Store-Container #webgift #box1 #pic1
+{
+    background-image: url(https://i.imgur.com/4mjd7On.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 12vh;
+}
+
+#Store-Container #webgift #box1 #text span
+{
+    color: red;
+    padding-left: 6.5vw;
+}
+
+#Store-Container #webgift #box1 #text
+{
+    padding: 2vh;
+}
+
+#Store-Container #webgift #box1 #itembox
+{
+    width: 88%;
+    height: 10vh;
+    margin: auto;
+    background-color: #FFE3C2;
+    overflow-y: hidden;
+}
+
+#Store-Container #webgift #box1 #itembox p
+{
+    margin-left: 2vw;
+    margin-top: 1vh;
+}
+
+#Store-Container #webgift #box1 #itembox #pic1
+{
+    width: 20%;
+    height: 6.5vh;
+    background-image: url(https://i.imgur.com/LGDarL9.png);
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+}
+
+#Store-Container #webgift #box1 #button1
+{
+   text-align: center;
+}
+
+#Store-Container #webgift #box1 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+
+
+
+#devinepass
+{
+    margin-top: 8vh;
+}
+
+#devinepass p
+{
+    color: hsla(0, 0%, 100%, 0.7);
+}
+#devinepass #p1
+{
+    color: white;
+    font-size: 3vh;
+    font-weight: 725;
+    margin-bottom: 1vh;
+}
+
+#devinepass #boxes
+{
+    margin-top: 1.5vh;
+    display: flex;
+    gap: 0.5vw;
+}
+
+#devinepass #boxes #text
+{
+   padding: 1vh;
+   margin-bottom: 1vh;
+}
+#devinepass #boxes #text2
+{
+
+   margin-top: 1.5vh;
+}
+
+#devinepass #boxes p
+{
+    color: black;
+}
+#devinepass #boxes span
+{
+    color: red;
+    margin-left: 7vw;
+}
+
+#devinepass #boxes #box1
+{
+   background-color: #F8D3A8;
+   width: 25%;
+   border-radius: 10px;
+}
+
+#devinepass #boxes #box1 #pic1
+{
+  background-image: url(https://i.imgur.com/wGWOoIq.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#devinepass #boxes #box1 #itembox
+{
+    margin: auto;
+    margin-bottom: 2vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box1 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box1 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/hPa7hwT.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+
+#devinepass #boxes #box1 #itembox #item2
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box1 #itembox #item2 #pic2
+{
+    background-image: url(https://i.imgur.com/B0hvpNV.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+#devinepass #box1 #button1
+{
+   text-align: center;
+}
+
+
+#devinepass #box1 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*SECOND BOX*/
+
+#devinepass #boxes #box2
+{
+   background-color: #F8D3A8;
+   width: 25%;
+   border-radius: 10px;
+}
+
+#devinepass #boxes #box2 #pic1
+{
+  background-image: url(https://i.imgur.com/hJyKyAx.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#devinepass #boxes #box2 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box2 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box2 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+
+#devinepass #boxes #box2 #itembox #item2
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box2 #itembox #item2 #pic2
+{
+    background-image: url(https://i.imgur.com/B0hvpNV.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+#devinepass #boxes #box2 #itembox #item3
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box2 #itembox #item3 #pic3
+{
+    background-image: url(https://i.imgur.com/dgDuwer.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+#devinepass #box2 #button1
+{
+   text-align: center;
+}
+
+
+#devinepass #box2 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*THIRD BOX*/
+
+#devinepass #boxes #box3
+{
+   background-color: #F8D3A8;
+   width: 25%;
+   border-radius: 10px;
+}
+
+#devinepass #boxes #box3 #text span
+{
+  margin-left: 5.5vw;
+}
+
+#devinepass #boxes #box3 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#devinepass #boxes #box3 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box3 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box3 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+
+#devinepass #boxes #box3 #itembox #item2
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box3 #itembox #item2 #pic2
+{
+    background-image: url(https://i.imgur.com/ws0XvO1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+#devinepass #boxes #box3 #itembox #item3
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box3 #itembox #item3 #pic3
+{
+    background-image: url(https://i.imgur.com/B0hvpNV.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+#devinepass #boxes #box3 #itembox #item4
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 1vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#devinepass #boxes #box3 #itembox #item4 #pic4
+{
+    background-image: url(https://i.imgur.com/dgDuwer.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+#devinepass #box3 #button1
+{
+   text-align: center;
+}
+
+
+#devinepass #box3 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*SPECIAL -----------------------------------------------------------------------------------*/
+
+#special 
+{
+    margin-top: 7vh;
+}
+
+#special #title
+{
+    font-size: 3vh;
+    font-weight: 725;
+    color: white;
+}
+
+#special #boxes
+{
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9vw;
+}
+
+/*BOX 1 -------------------------------------------------------*/
+
+#special #boxes #box1
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box1 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box1 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box1 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box1 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box1 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box1 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box1 #button1
+{
+   text-align: center;
+}
+
+
+#special #box1 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX 2 -------------------------------------------------------*/
+
+#special #boxes #box2
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box2 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box2 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box2 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box2 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box2 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box2 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box2 #button1
+{
+   text-align: center;
+}
+
+
+#special #box2 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX 3 -------------------------------------------------------*/
+
+#special #boxes #box3
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box3 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box3 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box3 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box3 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box3 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box3 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+
+#special #box3 #button1
+{
+   text-align: center;
+}
+
+
+#special #box3 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX 4 -------------------------------------------------------*/
+
+#special #boxes #box4
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box4 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box4 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box4 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box4 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box4 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box4 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box4 #button1
+{
+   text-align: center;
+}
+
+
+#special #box4 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX5 -------------------------------------------------------*/
+
+#special #boxes #box5
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box5 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box5 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box5 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box5 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box5 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box5 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box5 #button1
+{
+   text-align: center;
+}
+
+
+#special #box5 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX6 -------------------------------------------------------*/
+
+#special #boxes #box6
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box6 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box6 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box6 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box6 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box6 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box6 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box6 #button1
+{
+   text-align: center;
+}
+
+
+#special #box6 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+
+/*BOX7 -------------------------------------------------------*/
+
+#special #boxes #box7
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box7 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box7 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box7 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box7 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box7 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box7 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box7 #button1
+{
+   text-align: center;
+}
+
+
+#special #box7 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX8 -------------------------------------------------------*/
+
+#special #boxes #box8
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box8 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box8 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box8 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box8 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box8 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box8 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box8 #button1
+{
+   text-align: center;
+}
+
+
+#special #box8 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX9 -------------------------------------------------------*/
+
+#special #boxes #box9
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box9 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box9 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box9 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box9 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box9 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box9 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box9 #button1
+{
+   text-align: center;
+}
+
+
+#special #box9 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX10 -------------------------------------------------------*/
+
+#special #boxes #box10
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box10 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box10 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box10 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box10 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box10 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box10 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box10 #button1
+{
+   text-align: center;
+}
+
+
+#special #box10 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX11 -------------------------------------------------------*/
+
+#special #boxes #box11
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box11 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box11 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box11 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box11 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box11 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box11 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+
+#special #box11 #button1
+{
+   text-align: center;
+}
+
+
+#special #box11 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}/*BOX11 -------------------------------------------------------*/
+
+#special #boxes #box11
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box11 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box11 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box11 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box11 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box11 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box11 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+
+#special #box11 #button1
+{
+   text-align: center;
+}
+
+
+#special #box11 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX12 -------------------------------------------------------*/
+
+#special #boxes #box12
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box12 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box12 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box12 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box12 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box12 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box12 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box12 #button1
+{
+   text-align: center;
+}
+
+
+#special #box12 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX13 -------------------------------------------------------*/
+
+#special #boxes #box13
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box13 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box13 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box13 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box13 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box13 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box13 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #box13 #button1
+{
+   text-align: center;
+}
+
+
+#special #box13 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}
+
+/*BOX14 -------------------------------------------------------*/
+
+#special #boxes #box14
+{
+   background-color: #F8D3A8;
+   width: 24%;
+   border-radius: 10px;
+}
+
+#special #boxes #box14 #text span
+{
+  margin-left: 5.5vw;
+  color: red;
+}
+
+#special #boxes #box14 #text
+{
+  margin-bottom: 5.5vh;
+  text-align: center;
+
+}
+
+#special #boxes #box14 #pic1
+{
+  background-image: url(https://i.imgur.com/ckngbmg.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom: 1.5vh;
+}
+
+#special #boxes #box14 #itembox
+{
+    margin: auto;
+    margin-bottom: 0.5vh;
+    background-color: #FFE3C2;
+    width: 90%;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1vh;
+    overflow-y: hidden;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+#special #boxes #box14 #itembox #item1
+{
+    background-color: #FFE3C2;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 0.3vw;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#special #boxes #box14 #itembox #item1 #pic1
+{
+    background-image: url(https://i.imgur.com/g14lJ1e.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------- Items -------------------------*/
+
+
+#special #box14 #button1
+{
+   text-align: center;
+}
+
+
+#special #box14 #button1 button
+{
+   width: 88%;
+   height: 5vh;
+   margin-bottom: 1vh;
+   margin-top: 4vh;
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+   background-color: #00D6FF;
+   box-shadow: 0px -10px 10px #035DD2 inset;
+   cursor: pointer;
+}

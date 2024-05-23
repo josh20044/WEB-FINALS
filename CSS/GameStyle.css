@@ -1,7 +1,6 @@
     body {
         margin: auto;
         margin: 0%;
-        font-family: inherit;
         background-image: url(https://i.imgur.com/AeGQD2G.png);
         width: 100%;
         background-size: 2520px;
@@ -269,9 +268,9 @@
 
     #slider {
         float: left;
-        width: 66%;
+        width: 80%;
         max-width: 1920px;
-        height: 700px;
+        height: 550px;
         margin: auto;
         position: relative;
         overflow: hidden;
@@ -296,13 +295,8 @@
     
     #buttons {
         position: relative;
-        width: 17%;
-    }
-    
-    #buttons2 {
-        position: relative;
-        width: 17%;
-        
+        width: 5%;
+        padding-top: 10%;
     }
     
     #buttons button:hover {
@@ -316,7 +310,7 @@
     }
     
     #buttons button {
-        height: 700px;
+        height: 100px;
         width: 100%;
         border-radius: 1px;
         background-color: gray;
@@ -416,5 +410,11 @@
     }
 
     #item {
-        /* display: flex; */
+
+    }
+
+    #DivWithSlider h1 {
+        color: white;
+        padding-top: 40px;
+        padding-left: 190px;
     }
