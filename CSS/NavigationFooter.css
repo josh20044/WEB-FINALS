@@ -21,6 +21,7 @@ body
     padding: 18px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
     
 #navigation a
@@ -95,14 +96,14 @@ body
 #socialDrop
 {
     display: none;
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: black;
     color: white;
     padding: 1.5%;
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(10px);
-    z-index: 1;
+    z-index: 2;
 }
 
 #socialDrop #discord
@@ -129,7 +130,7 @@ body
 
 #connect
 {
-    position: absolute;
+    position: fixed;
     background-color: #FFC200;
     width: 100%;
     display: flex;
@@ -137,6 +138,7 @@ body
 
     justify-content: center;
     height: 70px;
+    z-index: 1;
 }
 
 #connect p
@@ -160,18 +162,20 @@ body
 
 #backBlur
 {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     pointer-events: none;
     transition: all 0.5s ease-in-out;
+    z-index: 1;
 }
 
 #qrcode
 {
     display: none;
-    position: absolute;
+    position: fixed;
     overflow-y: hidden;
+    z-index: 1;
 }
 
 #qrcode button
@@ -299,5 +303,5 @@ body
     width: 90px;
     height: 80px;
     margin-top: 55px;
-    margin-right: 55px;
+    margin-right: 55px; 
 }
